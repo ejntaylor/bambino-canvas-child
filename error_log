@@ -1,0 +1,6 @@
+[20-May-2014 21:01:35 UTC] PHP Fatal error:  Call to undefined function wp_get_theme() in /home/rstage/public_html/template/wp-content/themes/bambino/functions.php on line 11
+[20-May-2014 21:01:43 UTC] PHP Fatal error:  Call to undefined function is_front_page() in /home/rstage/public_html/template/wp-content/themes/bambino/content-page.php on line 23
+[20-May-2014 21:01:51 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/rstage/public_html/template/wp-content/themes/bambino/template-home.php on line 11
+[24-May-2014 06:24:55 UTC] PHP Fatal error:  Call to undefined function wp_get_theme() in /home/rstage/public_html/template/wp-content/themes/bambino/functions.php on line 11
+[24-May-2014 13:59:39 UTC] PHP Fatal error:  Call to undefined function is_front_page() in /home/rstage/public_html/template/wp-content/themes/bambino/content-page.php on line 23
+[24-May-2014 15:15:26 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/rstage/public_html/template/wp-content/themes/bambino/template-home.php on line 11

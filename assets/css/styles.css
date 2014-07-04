@@ -1,0 +1,156 @@
+/* wp essentials */
+
+.sticky, .gallery-caption {
+	
+}
+
+/* typography */
+
+a:link, a:visited {
+color: #B93242;
+text-decoration: none;
+}
+
+body {
+  font: 300 13px/20px 'Open Sans', sans-serif 600;
+  color: #555;
+  background-color: #fff;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 1.6em;
+}
+h4 {
+  font-size: 1.2em;
+}
+h5 {
+  font-size: 1em;
+}
+h6 {
+  font-size: 0.8em;
+}
+p {
+  margin: 0;
+  font: 300 14px/22px 'Open Sans', sans-serif;
+}
+
+
+.entry,
+.entry p {
+  color: #555555;
+  font: 300 15px/1.5em "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.widget h3 {
+  margin: 0 0 0.8em 0;
+  padding: 0 0 0.8em;
+  font: normal bold 14px 'Open Sans', sans-serif;
+  color: #555;
+  border-bottom: 1px solid #e6e6e6;
+}
+.widget p {
+  font: 300 13px/20px "Helvetica Neue", Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+
+/* Navigation */
+
+#navigation {
+  font: 300 14px/1.2 "Helvetica Neue", sans-serif;
+  background: #f0f0f0;
+}
+
+/* Logo */
+
+#logo .site-title,
+#logo .site-description {
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  display: block;
+}
+#logo .site-title a {
+  color: #DC3022;
+  font-size: 40px;
+  font-weight:100;
+  text-transform:lowercase;
+  line-height: 30px;
+  text-decoration: none;
+}
+#logo .site-title a:hover {
+  text-decoration: none;
+}
+#logo .site-description {
+  color: #DC3022;
+  font-size:23px;
+  font-weight: 100;
+  text-transform:lowercase
+}
+
+
+
+/* Page Title */
+
+
+.page-title,
+.post .title,
+.page .title {
+  font: normal bold 28px/1.2em "Helvetica Neue", Helvetica, Arial sans-serif;
+  margin: 0 0 0.5em;
+}
+.post .title a:link,
+.post .title a:visited,
+.page .title a:link,
+.page .title a:visited {
+  color: #222;
+}
+.post-meta {
+  margin: 0 0 1.8em 0;
+  font: 1em/1em sans-serif;
+  color: #999;
+  font: 300 12px/18px 'Open Sans', sans-serif;
+}
+
+
+
+
+/* Top Nav */
+
+@media only screen and (min-width: 768px)
+{
+#top ul.nav li a {
+color: #BCBCBC;
+text-transform: uppercase;
+}
+}
+
+
+/* WooCommerce Buttons */
+
+a.button, a.comment-reply-link, #commentform #submit, .submit, input[type=submit], input.button, button.button, #wrapper .woo-sc-button {
+background: #DC3022;
+}
+
+a.button:hover, a.comment-reply-link:hover, #commentform #submit:hover, .submit:hover, input[type=submit]:hover, input.button:hover, button.button:hover, #wrapper .woo-sc-button:hover {
+background: #88000C;
+}

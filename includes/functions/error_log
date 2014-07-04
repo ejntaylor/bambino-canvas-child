@@ -1,0 +1,2 @@
+[20-May-2014 21:09:20 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/rstage/public_html/template/wp-content/themes/bambino/includes/functions/scripts.php on line 40
+[03-Jun-2014 14:23:52 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/rstage/public_html/template/wp-content/themes/bambino/includes/functions/scripts.php on line 40
