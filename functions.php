@@ -26,8 +26,12 @@ function bamboo_install_notice(){
 require_once('includes/functions/hooks.php');
 require_once('includes/functions/scripts.php');
 require_once('includes/functions/widgets.php');
-require_once('includes/functions/woocommerce.php');
 require_once('includes/functions/misc.php');
+
+if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+    require_once('includes/functions/woocommerce.php');
+
+}
 
 
 
