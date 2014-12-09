@@ -1,10 +1,9 @@
-/* 
-
 jQuery(function ($) {
 
 	$(window).load(function() {
  
     
+/*
 	    $('.slide-class').flexslider(
 	    {
 				animation: "fade",    
@@ -14,6 +13,7 @@ jQuery(function ($) {
 				video: true,
 	 
 	     });
+*/
 	     
 	     
 	     
@@ -23,5 +23,3 @@ jQuery(function ($) {
 	     
 }); // jQuery(funtion...
 
-
-*/

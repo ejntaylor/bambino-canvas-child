@@ -1,0 +1,1 @@
+jQuery(function($){$(window).load(function(){})}),jQuery(document).ready(function($){console.log("Bambino JS Working")});
