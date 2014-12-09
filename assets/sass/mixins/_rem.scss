@@ -1,0 +1,47 @@
+//
+// Converts pixel values to rem values with a pixel fallback defintion.
+// Uses 10 as the default base size unless a different $base has been defined
+// at the project level.
+
+// Usage:
+//   @include rem('width', 100px);
+
+// Returns: 
+//   width: 100px;
+//   width: 10rem;
+//
+@mixin rem($prop, $px-values) {
+    // Convert the base value into rem.
+    $base: 10 !default;
+    $base-rem: (($base * 1px) / 1rem);
+
+    // Print the first line in pixel values.
+    #{$prop}: $px-values;
+
+    // If there is only one (numeric) value, return the property/value line for it.
+    @if type-of($px-values) == 'number' {
+        #{$prop}: $px-values / $base-rem;
+    }
+
+    // If there is more than one value, create a list and perform equations on each value.
+    @else {
+        $rem-values: ();
+
+        @each $value in $px-values {
+
+            @if $value == 0 {
+                $rem-values: append($rem-values, $value);
+            }
+            @else if $value == 'auto' {
+                $rem-values: append($rem-values, auto);
+            }
+            // If the value is not zero, then convert it from px to rem
+            @else {
+                $rem-values: append( $rem-values, ($value / $base-rem) );
+            }
+        }
+
+        // Return the property and its list of converted values.
+        #{$prop}: $rem-values;
+    }
+}

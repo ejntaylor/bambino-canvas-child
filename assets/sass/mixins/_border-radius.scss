@@ -1,0 +1,45 @@
+// ============================================================================
+// Border Radius
+// ============================================================================
+
+// $props takes one, two, three or four properties.
+
+// @NOTE: You cannot override a non-zero value with zero.;
+
+// 1 - top left
+// 2 - top right
+// 3 - bottom right
+// 4 - bottom left
+@mixin border-radius($props) {
+    @if type-of($props) == 'number' {
+        -webkit-border-radius: $props;
+           -moz-border-radius: $props;
+                border-radius: $props;
+    } 
+    @else {
+        $i: 0;
+        @each $prop in $props {
+            @if $i == 0 and $prop != 0 {
+                -webkit-border-top-left-radius: $prop;
+                   -moz-border-radius-topleft: $prop;
+                        border-top-left-radius: $prop;
+            }
+            @else if $i == 1 and $prop != 0 {
+                -webkit-border-top-right-radius: $prop;
+                   -moz-border-radius-topright: $prop;
+                        border-top-right-radius: $prop;
+            }
+            @else if $i == 2 and $prop != 0 {
+                -webkit-border-bottom-right-radius: $prop;
+                   -moz-border-radius-bottomright: $prop;
+                        border-bottom-right-radius: $prop;
+            }
+            @else if $i == 3 and $prop != 0 {
+                -webkit-border-bottom-left-radius: $prop;
+                   -moz-border-radius-bottomleft: $prop;
+                        border-bottom-left-radius: $prop;
+            }
+            $i: $i + 1;
+        }
+    }
+}

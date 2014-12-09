@@ -1,0 +1,27 @@
+/*!
+Theme Name:     Bambino
+Description:    Canvas child theme for Bamboo by Raison - http://raison.co
+Author:         Bamboo
+Template:       canvas
+Version:		1.1.2
+Author URI: http://raison.co
+Theme URI: http://raison.co/bamboo
+*/
+ 
+ 
+//import all your partials
+
+//
+//#################################################
+// Main SASS file that joins everything together
+//#################################################
+//
+
+//variables
+@import "settings";
+
+//load mixins
+@import "mixins/all";
+
+//layout, modules, etc
+@import "layout/all", "modules/all", "thirdparty/all";

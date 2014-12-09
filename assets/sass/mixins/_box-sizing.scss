@@ -1,0 +1,9 @@
+// ============================================================================
+// Box Sizing: content-box|border-box|inherit
+// ============================================================================
+
+@mixin box-sizing($prop) {
+    -webkit-box-sizing: $prop;
+       -moz-box-sizing: $prop;
+            box-sizing: $prop;
+}

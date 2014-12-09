@@ -1,0 +1,12 @@
+$box-shadows: true !default;
+// ============================================================================
+// Box Shadow
+// ============================================================================
+
+@mixin box-shadow($props) {
+    @if $box-shadows == true {
+        -webkit-box-shadow: $props;
+           -moz-box-shadow: $props;
+                box-shadow: $props;
+    }
+}
