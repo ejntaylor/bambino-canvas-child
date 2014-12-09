@@ -13,11 +13,11 @@ add_action('wp_enqueue_scripts', 'bambino_js');
 // Bambino CSS
 
 function bambino_css() {
-		wp_register_style( 'bambinoStyles', get_stylesheet_directory_uri() . '/style.css', array(), BB_VERSION, 'all' );
-		wp_enqueue_style( 'bambinoStyles');
+		wp_register_style( 'canvasStyles', get_template_directory_uri() . '/style.css', array(), BB_VERSION, 'all' );
+		wp_enqueue_style( 'canvasStyles');
 }
 
-add_action( 'wp_enqueue_scripts', 'bambino_css', 30 );
+add_action( 'wp_enqueue_scripts', 'bambino_css', 10 );
 
 
 // Custom Options
