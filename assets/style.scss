@@ -17,11 +17,14 @@ Theme URI: http://raison.co/bamboo
 //#################################################
 //
 
+//import from canvas
+@import url("../canvas/style.css");
+
 //variables
-@import "settings";
+@import "sass/settings";
 
 //load mixins
-@import "mixins/all";
+@import "sass/mixins/all";
 
 //layout, modules, etc
-@import "layout/all", "modules/all", "thirdparty/all";
+@import "sass/layout/all", "sass/modules/all", "sass/thirdparty/all";

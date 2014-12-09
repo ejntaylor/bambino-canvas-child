@@ -31,13 +31,14 @@ function print_my_bambino_scripts_foot() {
 
 // custom css  (remove from enqueue)
 
-function bambino_bambino_css() {
+function bambino_css() {
 
-	    wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Raleway:400,900,100,200,300|Raleway+Dots|Merriweather:400,900|Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700');
-		wp_enqueue_style( 'googleFonts');
+		wp_register_style( 'bambinoStyles', get_stylesheet_directory_uri() . '/style.css', array(), BB_VERSION, 'all' );
+		wp_enqueue_style( 'bambinoStyles');
+
 }
 
-add_action( 'wp_enqueue_scripts', 'bambino_bambino_css', 30 );
+add_action( 'wp_enqueue_scripts', 'bambino_css', 30 );
 
 
 ?>

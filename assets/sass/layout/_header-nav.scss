@@ -3,3 +3,51 @@
  Header nav
 #################################################
 */
+
+/* Navigation */
+
+#navigation {
+  font: 300 14px/1.2 "Helvetica Neue", sans-serif;
+  background: #f0f0f0;
+}
+
+/* Logo */
+
+#logo .site-title,
+#logo .site-description {
+  font-family: 'Raleway', sans-serif;
+  color: #000;
+  display: block;
+}
+#logo .site-title a {
+  color: #DC3022;
+  font-size: 40px;
+  font-weight:100;
+  text-transform:lowercase;
+  line-height: 30px;
+  text-decoration: none;
+}
+#logo .site-title a:hover {
+  text-decoration: none;
+}
+#logo .site-description {
+  color: #DC3022;
+  font-size:23px;
+  font-weight: 100;
+  text-transform:lowercase
+}
+
+
+
+
+
+
+/* Top Nav */
+
+@media only screen and (min-width: 768px)
+{
+#top ul.nav li a {
+color: #BCBCBC;
+text-transform: uppercase;
+}
+}

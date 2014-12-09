@@ -2,15 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18270",
 "files": {
-	"\/assets\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/assets\/js\/flexcustom.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -58,6 +49,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/sass\/_shame.scss",
 		"outputAbbreviatedPath": "\/assets\/_shame.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/sass\/layout\/_adaptive.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/sass\/layout\/_adaptive.scss",
+		"outputAbbreviatedPath": "\/assets\/sass\/_adaptive.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -273,22 +280,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/main.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/main.scss",
-		"outputAbbreviatedPath": "\/assets\/main.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/assets\/sass\/mixins\/_all.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -385,15 +376,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/modules\/templates.scss": {
+	"\/assets\/sass\/modules\/_templates.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/modules\/templates.scss",
-		"outputAbbreviatedPath": "\/assets\/sass\/templates.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/modules\/_templates.scss",
+		"outputAbbreviatedPath": "\/assets\/sass\/_templates.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -401,15 +392,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/modules\/woo-styling.scss": {
+	"\/assets\/sass\/modules\/_woocommerce.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/modules\/woo-styling.scss",
-		"outputAbbreviatedPath": "\/assets\/sass\/woo-styling.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/modules\/_woocommerce.scss",
+		"outputAbbreviatedPath": "\/assets\/sass\/_woocommerce.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -417,15 +408,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/modules\/woocommerce.scss": {
+	"\/assets\/sass\/modules\/_woostyling.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/modules\/woocommerce.scss",
-		"outputAbbreviatedPath": "\/assets\/sass\/woocommerce.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/modules\/_woostyling.scss",
+		"outputAbbreviatedPath": "\/assets\/sass\/_woostyling.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -433,15 +424,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/responsive\/responsive-htabplus.scss": {
+	"\/assets\/sass\/responsive\/_all.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/responsive\/responsive-htabplus.scss",
-		"outputAbbreviatedPath": "\/assets\/sass\/responsive-htabplus.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/responsive\/_all.scss",
+		"outputAbbreviatedPath": "\/assets\/sass\/_all.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -449,15 +440,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/responsive\/responsive-phones.scss": {
+	"\/assets\/sass\/responsive\/_responsive-htabplus.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/responsive\/responsive-phones.scss",
-		"outputAbbreviatedPath": "\/assets\/sass\/responsive-phones.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/responsive\/_responsive-htabplus.scss",
+		"outputAbbreviatedPath": "\/assets\/sass\/_responsive-htabplus.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -465,15 +456,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/responsive\/responsive-vtablet.scss": {
+	"\/assets\/sass\/responsive\/_responsive-phones.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/responsive\/responsive-vtablet.scss",
-		"outputAbbreviatedPath": "\/assets\/sass\/responsive-vtablet.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/responsive\/_responsive-phones.scss",
+		"outputAbbreviatedPath": "\/assets\/sass\/_responsive-phones.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -481,15 +472,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/sass\/style.scss": {
+	"\/assets\/sass\/responsive\/_responsive-vtablet.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/sass\/style.scss",
-		"outputAbbreviatedPath": "\/assets\/style.css",
+		"inputAbbreviatedPath": "\/assets\/sass\/responsive\/_responsive-vtablet.scss",
+		"outputAbbreviatedPath": "\/assets\/sass\/_responsive-vtablet.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -506,6 +497,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/sass\/thirdparty\/_all.scss",
 		"outputAbbreviatedPath": "\/assets\/sass\/_all.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/style.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/style.scss",
+		"outputAbbreviatedPath": "\/style.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -598,7 +605,7 @@
 		},
 	"\/style.css": {
 		"fileType": 16,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
