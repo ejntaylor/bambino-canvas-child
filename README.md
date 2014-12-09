@@ -1,5 +1,5 @@
-bambino-canvas-child
-====================
+Bambino Child Theme for WooFramework / Canvas
+==============================================
 
 A child theme for developers - uses WooThemes Canvas as Parent Theme
 
