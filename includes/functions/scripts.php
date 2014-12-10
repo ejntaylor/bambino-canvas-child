@@ -17,7 +17,7 @@ function bambino_css() {
 		wp_enqueue_style( 'canvasStyles');
 }
 
-add_action( 'wp_enqueue_scripts', 'bambino_css', 10 );
+add_action( 'wp_enqueue_scripts', 'bambino_css', 1 );
 
 
 // Custom Options

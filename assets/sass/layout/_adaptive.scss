@@ -3,10 +3,12 @@
 
 /* Header Items and Content Items and Footer Items*/
  
-#content.col-full, #header, .nav-cont, #nav-container #navigation, #wrapper, #footer-widgets {
+#content.col-full, #header, .nav-cont, #nav-container #navigation, #wrapper, #footer-widgets, body.full-width #content, {
 	margin-left: auto;
 	margin-right: auto;
-}
+	padding-left: 0;
+	padding-right: 0;
+	}
  
 
 

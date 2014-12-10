@@ -17,6 +17,9 @@ Theme URI: http://raison.co/bamboo
 //#################################################
 //
 
+//Add Bourbon Mixin Library
+@import "bourbon", "neat";
+
 
 //variables
 @import "sass/settings";
