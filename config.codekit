@@ -47,7 +47,7 @@
 		"syntaxCheckerStyle": 1
 		},
 	"\/assets\/sass\/_settings.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -63,7 +63,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/_shame.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -79,7 +79,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/_adaptive.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -95,7 +95,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/_all.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -111,7 +111,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/_base.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -127,7 +127,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/_buttons.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -143,7 +143,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/_footer-nav.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -159,7 +159,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/_footer.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -175,7 +175,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/_header-nav.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -191,7 +191,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/_header.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -207,7 +207,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/_headings.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -223,7 +223,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/_side-menu.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -239,7 +239,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/helpers\/_all.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -255,7 +255,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/helpers\/_border-box.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -271,7 +271,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/helpers\/_rem.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -287,7 +287,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/layout\/helpers\/_reset.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -303,7 +303,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_all.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -319,7 +319,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_border-radius.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -335,7 +335,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_box-shadow.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -351,7 +351,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_box-sizing.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -367,7 +367,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/mixins\/_rem.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -383,7 +383,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/modules\/_all.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -399,7 +399,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/modules\/_templates.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -415,7 +415,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/modules\/_woocommerce.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -431,7 +431,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/modules\/_woostyling.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -447,7 +447,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/responsive\/_all.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -463,7 +463,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/responsive\/_responsive-htabplus.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -479,7 +479,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/responsive\/_responsive-phones.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -495,7 +495,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/responsive\/_responsive-vtablet.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -511,7 +511,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/sass\/thirdparty\/_all.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -527,7 +527,7 @@
 		"useLibsass": 1
 		},
 	"\/assets\/style.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -613,6 +613,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/screenshot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 763903,
+		"inputAbbreviatedPath": "\/screenshot.png",
+		"outputAbbreviatedPath": "\/screenshot.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/style.css": {
 		"fileType": 16,
@@ -1234,7 +1245,7 @@
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
-	"sassCreateSourceMap": 0,
+	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 3,
